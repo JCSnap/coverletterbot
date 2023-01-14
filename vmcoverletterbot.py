@@ -52,6 +52,7 @@ logger = logging.getLogger(__name__)
 
 token1 = '5943071283:AAHBvhDH0GS7FkcJoOHKfZHR3-AsP_TQai8'
 openai.api_key = "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"
+os.environ.get('API_KEY')
 
 async def error(update, context):
     """Log Errors caused by Updates."""
