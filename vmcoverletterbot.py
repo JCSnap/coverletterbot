@@ -50,8 +50,8 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 
-token1 = '5943071283:AAHBvhDH0GS7FkcJoOHKfZHR3-AsP_TQai8'
-openai.api_key = "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"
+token1 = my_bot_token
+openai.api_key = my_open_ai token
 os.environ.get('API_KEY')
 
 async def error(update, context):
