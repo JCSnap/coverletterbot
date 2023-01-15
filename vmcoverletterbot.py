@@ -25,11 +25,6 @@ import requests
 from bs4 import BeautifulSoup
 import os
 import openai
-import wandb
-
-
-import os
-import openai
 
 
 try:
