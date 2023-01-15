@@ -2,3 +2,4 @@ python-telegram-bot
 requests
 nest-asyncio
 openai
+bs4
