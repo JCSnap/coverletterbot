@@ -1,0 +1,5 @@
+python-telegram-bot
+requests
+rest -asyncio
+--upgrade openai wandb
+openai
