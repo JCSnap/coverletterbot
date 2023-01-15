@@ -23,6 +23,7 @@ from telegram.ext import (Updater,
 from telegram import __version__ as TG_VER
 import requests
 from bs4 import BeautifulSoup
+import wandb
 import os
 import openai
 
