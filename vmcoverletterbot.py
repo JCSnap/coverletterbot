@@ -50,9 +50,9 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 
-token1 = my_bot_token
-openai.api_key = my_open_ai token
-os.environ.get('API_KEY')
+token1 = '5943071283:AAHBvhDH0GS7FkcJoOHKfZHR3-AsP_TQai8'
+openai.api_key = "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"
+
 
 async def error(update, context):
     """Log Errors caused by Updates."""
