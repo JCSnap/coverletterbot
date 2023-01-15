@@ -47,7 +47,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 token1 = '5943071283:AAHBvhDH0GS7FkcJoOHKfZHR3-AsP_TQai8'
-openai.api_key = "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"
+openai.api_key = "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"
 ## openai.api_key = os.environ['OPENAI_KEY']
 
 
