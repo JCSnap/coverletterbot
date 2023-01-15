@@ -1,5 +1,5 @@
 python-telegram-bot
 requests
-nest -asyncio
+nest-asyncio
 --upgrade openai wandb
 openai
