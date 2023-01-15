@@ -3,3 +3,4 @@ requests
 nest-asyncio
 openai
 bs4
+wandb
