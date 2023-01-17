@@ -368,8 +368,8 @@ async def company2(update: Update, context: ContextTypes.DEFAULT_TYPE):
 async def company1(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
   company_name = update.message.text
   query = company_name + " company values"
-  api_key = "AIzaSyC0JQVxZqGtsLqdWjROUyb8fA7mLI_vrmM"
-  cx = '3787a9ff3fbea4fcc'
+  api_key = "ur google api key"
+  cx = 'google engine key'
   search_results = await search(query, api_key, cx)
   first_result_url = None
   if search_results.get('items'):
