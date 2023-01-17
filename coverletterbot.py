@@ -53,8 +53,8 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 
-token1 = '5943071283:AAHBvhDH0GS7FkcJoOHKfZHR3-AsP_TQai8'
-openai.api_key = "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"
+token1 = 'ur telegram key'
+openai.api_key = "ur openai token"
 
 async def error(update, context):
     """Log Errors caused by Updates."""
