@@ -46,8 +46,8 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 
-token1 = '5943071283:AAHBvhDH0GS7FkcJoOHKfZHR3-AsP_TQai8'
-openai.api_key = "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"
+token1 = 'ur telegram token'
+openai.api_key = "openai token"
 ## openai.api_key = os.environ['OPENAI_KEY']
 
 
@@ -304,8 +304,8 @@ async def company2(update: Update, context: ContextTypes.DEFAULT_TYPE):
 async def company1(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
   company_name = update.message.text
   query = company_name + " company values"
-  api_key = "AIzaSyC0JQVxZqGtsLqdWjROUyb8fA7mLI_vrmM"
-  cx = '3787a9ff3fbea4fcc'
+  api_key = "ur google api key"
+  cx = 'ur google engine key'
   search_results = await search(query, api_key, cx)
   first_result_url = None
   if search_results.get('items'):
